@@ -65,7 +65,7 @@ int prefixevaluation(string s)
 int main()
 {
     string prefix;
-    cout << "Insert Postfix Expression: ";
+    cout << "Insert Prefix Expression: ";
     getline(std::cin, prefix);
     int evaluated_prefix = prefixevaluation(prefix);
     cout << prefix << ": " << evaluated_prefix << endl;
